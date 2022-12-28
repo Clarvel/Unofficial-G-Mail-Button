@@ -1,0 +1,14 @@
+{
+  "name": "Unofficial G-Mail Button",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": ["https://mail.google.com/"],
+  "permissions": ["tabs", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "icons": {
+    "64": "icon.png"
+  }
+}
