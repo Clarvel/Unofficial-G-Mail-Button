@@ -1,3 +1,5 @@
+import "./keepAlive.js"
+
 const GMAIL_URL = "https://mail.google.com/mail/"
 const FEED_URL = GMAIL_URL + "feed/atom"
 const QUERY_URL = GMAIL_URL + "*"
